@@ -12,6 +12,7 @@
 		8A0FB950273A11570082C403 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0FB94F273A11570082C403 /* Assets.xcassets */; };
 		8A0FB953273A11570082C403 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0FB952273A11570082C403 /* Preview Assets.xcassets */; };
 		8A0FB95B273B6B710082C403 /* Archer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FB95A273B6B710082C403 /* Archer.swift */; };
+		8A926DA2273C519B00107A5C /* CardsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A926DA1273C519B00107A5C /* CardsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		8A0FB94F273A11570082C403 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A0FB952273A11570082C403 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A0FB95A273B6B710082C403 /* Archer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Archer.swift; sourceTree = "<group>"; };
+		8A926DA1273C519B00107A5C /* CardsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				8A0FB959273B6B470082C403 /* Model */,
 				8A0FB94B273A11490082C403 /* TradingCardsApp.swift */,
 				8A0FB94D273A11490082C403 /* ContentView.swift */,
+				8A926DA1273C519B00107A5C /* CardsListView.swift */,
 				8A0FB94F273A11570082C403 /* Assets.xcassets */,
 				8A0FB951273A11570082C403 /* Preview Content */,
 			);
@@ -150,6 +153,7 @@
 			files = (
 				8A0FB94E273A11490082C403 /* ContentView.swift in Sources */,
 				8A0FB95B273B6B710082C403 /* Archer.swift in Sources */,
+				8A926DA2273C519B00107A5C /* CardsListView.swift in Sources */,
 				8A0FB94C273A11490082C403 /* TradingCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
