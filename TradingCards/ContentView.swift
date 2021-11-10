@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    let stat: Archer
+    
     var body: some View {
         VStack(alignment: .center, spacing: 5) {
             
@@ -15,7 +17,7 @@ struct ContentView: View {
             Rectangle()
                 .frame(width: 500, height: 20, alignment: .center)
             // Name
-            Text("An San")
+            Text(stat.archerName)
                 .font(Font.custom("Helvetica Neue", size: 40).bold().italic())
             // Decoration
             ZStack {
@@ -38,7 +40,7 @@ struct ContentView: View {
                 Circle()
                     .fill(Color.red)
                     .frame(width: 345, height: 370, alignment: .center)
-                Image("An San")
+                Image(stat.imageName)
                     .resizable()
                     .scaledToFit()
                     .clipShape(Circle())
@@ -58,12 +60,12 @@ struct ContentView: View {
                     // Stats
                     VStack(alignment: .leading, spacing: 3) {
                         Group {
-                            Text("International Debut: 2019")
-                            Text("Age: 20")
-                            Text("Best Score: 684")
-                            Text("Winning Percentage: 76%")
-                            Text("World Ranking: 1")
-                            Text("Average Score per arrow: 9.4")
+                            Text(stat.debutDate)
+                            Text(stat.age)
+                            Text(stat.bestScore)
+                            Text(stat.winningPercentage)
+                            Text(stat.worldRanking)
+                            Text(stat.averageScore)
                         }
                         .font(Font.custom("Avenir Next", size: 18).bold())
                         .foregroundColor(.white)
@@ -96,7 +98,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ContentView()
+            ContentView(stat: listOfStats.first!)
         }
     }
 }
