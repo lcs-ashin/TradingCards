@@ -23,7 +23,7 @@ struct CardsListView: View {
                             .resizable()
                             .scaledToFit()
                             .frame(width: 50, height: 50, alignment: .center)
-                            .clipShape(Circle())
+                            .clipShape(RoundedRectangle(cornerRadius: 12))
                             .clipped()
                         VStack(alignment: .leading) {
                             Text(currentStat.archerName)
