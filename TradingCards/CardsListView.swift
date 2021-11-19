@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct CardsListView: View {
-    let imageName: String
-    let archerName: String
     
     var body: some View {
         List {
@@ -41,7 +39,7 @@ struct CardsListView: View {
 struct CardsListView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            CardsListView(imageName: "An San", archerName: "An San")
+            CardsListView()
         }
     }
 }
